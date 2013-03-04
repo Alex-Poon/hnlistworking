@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD29075E16E0A11D00C0DD27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD29075C16E0A11D00C0DD27 /* InfoPlist.strings */; };
+		FD29077916E0A15800C0DD27 /* ADTAudioACR.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29076516E0A15800C0DD27 /* ADTAudioACR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29077A16E0A15800C0DD27 /* libADTAudioACR-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29076616E0A15800C0DD27 /* libADTAudioACR-universal.a */; };
+		FD29077B16E0A15800C0DD27 /* ADTAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29076716E0A15800C0DD27 /* ADTAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29077C16E0A15800C0DD27 /* ADTAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FD29076816E0A15800C0DD27 /* ADTAudioRecorder.m */; };
+		FD29077D16E0A15800C0DD27 /* ADTAudioRecorderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29076916E0A15800C0DD27 /* ADTAudioRecorderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29077E16E0A15800C0DD27 /* ADTClient.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29076A16E0A15800C0DD27 /* ADTClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29077F16E0A15800C0DD27 /* ADTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FD29076B16E0A15800C0DD27 /* ADTClient.m */; };
+		FD29078016E0A15800C0DD27 /* ADTClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29076C16E0A15800C0DD27 /* ADTClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078116E0A15800C0DD27 /* ADTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29076D16E0A15800C0DD27 /* ADTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078216E0A15800C0DD27 /* ADTLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29076E16E0A15800C0DD27 /* ADTLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078316E0A15800C0DD27 /* ADTLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = FD29076F16E0A15800C0DD27 /* ADTLogging.m */; };
+		FD29078416E0A15800C0DD27 /* ADTRestAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29077016E0A15800C0DD27 /* ADTRestAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078516E0A15800C0DD27 /* ADTRestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FD29077116E0A15800C0DD27 /* ADTRestAPI.m */; };
+		FD29078616E0A15800C0DD27 /* ADTRestAPIDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29077216E0A15800C0DD27 /* ADTRestAPIDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078716E0A15800C0DD27 /* ADTRestEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29077316E0A15800C0DD27 /* ADTRestEnvelope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078816E0A15800C0DD27 /* ADTRestEnvelope.m in Sources */ = {isa = PBXBuildFile; fileRef = FD29077416E0A15800C0DD27 /* ADTRestEnvelope.m */; };
+		FD29078916E0A15800C0DD27 /* ADTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29077516E0A15800C0DD27 /* ADTUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078A16E0A15800C0DD27 /* ADTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD29077616E0A15800C0DD27 /* ADTUtils.m */; };
+		FD29078B16E0A15800C0DD27 /* ADTVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29077716E0A15800C0DD27 /* ADTVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD29078C16E0A15800C0DD27 /* ADTVersion.h.in in Resources */ = {isa = PBXBuildFile; fileRef = FD29077816E0A15800C0DD27 /* ADTVersion.h.in */; };
+		FD29078E16E0A17400C0DD27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29078D16E0A17400C0DD27 /* UIKit.framework */; };
+		FD29079016E0A17A00C0DD27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29078F16E0A17A00C0DD27 /* Foundation.framework */; };
+		FD29079216E0A17F00C0DD27 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29079116E0A17F00C0DD27 /* AdSupport.framework */; };
+		FD29079416E0A18700C0DD27 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29079316E0A18700C0DD27 /* Accelerate.framework */; };
+		FD29079616E0A18C00C0DD27 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29079516E0A18C00C0DD27 /* AVFoundation.framework */; };
+		FD29079816E0A19200C0DD27 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29079716E0A19200C0DD27 /* AudioToolbox.framework */; };
+		FD29079A16E0A19900C0DD27 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD29079916E0A19900C0DD27 /* QuartzCore.framework */; };
+		FD2907A016E0A1B700C0DD27 /* ADTCloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FD29079C16E0A1B700C0DD27 /* ADTCloseButton.png */; };
+		FD2907A116E0A1B700C0DD27 /* ADTCloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD29079D16E0A1B700C0DD27 /* ADTCloseButton@2x.png */; };
+		FD2907A216E0A1B700C0DD27 /* ADTIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD29079E16E0A1B700C0DD27 /* ADTIcon.png */; };
+		FD2907A316E0A1B700C0DD27 /* ADTIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD29079F16E0A1B700C0DD27 /* ADTIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD29075716E0A11D00C0DD27 /* ADTClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADTClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD29075B16E0A11D00C0DD27 /* ADTClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADTClient-Info.plist"; sourceTree = "<group>"; };
+		FD29075D16E0A11D00C0DD27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD29075F16E0A11D00C0DD27 /* ADTClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADTClient-Prefix.pch"; sourceTree = "<group>"; };
+		FD29076516E0A15800C0DD27 /* ADTAudioACR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTAudioACR.h; path = ../ADTAudioACR.h; sourceTree = "<group>"; };
+		FD29076616E0A15800C0DD27 /* libADTAudioACR-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libADTAudioACR-universal.a"; path = "../libADTAudioACR-universal.a"; sourceTree = "<group>"; };
+		FD29076716E0A15800C0DD27 /* ADTAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTAudioRecorder.h; path = ../ADTAudioRecorder.h; sourceTree = "<group>"; };
+		FD29076816E0A15800C0DD27 /* ADTAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADTAudioRecorder.m; path = ../ADTAudioRecorder.m; sourceTree = "<group>"; };
+		FD29076916E0A15800C0DD27 /* ADTAudioRecorderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTAudioRecorderDelegate.h; path = ../ADTAudioRecorderDelegate.h; sourceTree = "<group>"; };
+		FD29076A16E0A15800C0DD27 /* ADTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTClient.h; sourceTree = SOURCE_ROOT; };
+		FD29076B16E0A15800C0DD27 /* ADTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTClient.m; sourceTree = SOURCE_ROOT; };
+		FD29076C16E0A15800C0DD27 /* ADTClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTClientDelegate.h; sourceTree = SOURCE_ROOT; };
+		FD29076D16E0A15800C0DD27 /* ADTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTConstants.h; path = ../ADTConstants.h; sourceTree = "<group>"; };
+		FD29076E16E0A15800C0DD27 /* ADTLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTLogging.h; path = ../ADTLogging.h; sourceTree = "<group>"; };
+		FD29076F16E0A15800C0DD27 /* ADTLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADTLogging.m; path = ../ADTLogging.m; sourceTree = "<group>"; };
+		FD29077016E0A15800C0DD27 /* ADTRestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTRestAPI.h; path = ../ADTRestAPI.h; sourceTree = "<group>"; };
+		FD29077116E0A15800C0DD27 /* ADTRestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADTRestAPI.m; path = ../ADTRestAPI.m; sourceTree = "<group>"; };
+		FD29077216E0A15800C0DD27 /* ADTRestAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTRestAPIDelegate.h; path = ../ADTRestAPIDelegate.h; sourceTree = "<group>"; };
+		FD29077316E0A15800C0DD27 /* ADTRestEnvelope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTRestEnvelope.h; path = ../ADTRestEnvelope.h; sourceTree = "<group>"; };
+		FD29077416E0A15800C0DD27 /* ADTRestEnvelope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADTRestEnvelope.m; path = ../ADTRestEnvelope.m; sourceTree = "<group>"; };
+		FD29077516E0A15800C0DD27 /* ADTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTUtils.h; path = ../ADTUtils.h; sourceTree = "<group>"; };
+		FD29077616E0A15800C0DD27 /* ADTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADTUtils.m; path = ../ADTUtils.m; sourceTree = "<group>"; };
+		FD29077716E0A15800C0DD27 /* ADTVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADTVersion.h; path = ../ADTVersion.h; sourceTree = "<group>"; };
+		FD29077816E0A15800C0DD27 /* ADTVersion.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADTVersion.h.in; path = ../ADTVersion.h.in; sourceTree = "<group>"; };
+		FD29078D16E0A17400C0DD27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD29078F16E0A17A00C0DD27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD29079116E0A17F00C0DD27 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FD29079316E0A18700C0DD27 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FD29079516E0A18C00C0DD27 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FD29079716E0A19200C0DD27 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FD29079916E0A19900C0DD27 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FD29079C16E0A1B700C0DD27 /* ADTCloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADTCloseButton.png; sourceTree = "<group>"; };
+		FD29079D16E0A1B700C0DD27 /* ADTCloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ADTCloseButton@2x.png"; sourceTree = "<group>"; };
+		FD29079E16E0A1B700C0DD27 /* ADTIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADTIcon.png; sourceTree = "<group>"; };
+		FD29079F16E0A1B700C0DD27 /* ADTIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ADTIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD29075116E0A11D00C0DD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD29079A16E0A19900C0DD27 /* QuartzCore.framework in Frameworks */,
+				FD29079816E0A19200C0DD27 /* AudioToolbox.framework in Frameworks */,
+				FD29079616E0A18C00C0DD27 /* AVFoundation.framework in Frameworks */,
+				FD29079416E0A18700C0DD27 /* Accelerate.framework in Frameworks */,
+				FD29079216E0A17F00C0DD27 /* AdSupport.framework in Frameworks */,
+				FD29079016E0A17A00C0DD27 /* Foundation.framework in Frameworks */,
+				FD29078E16E0A17400C0DD27 /* UIKit.framework in Frameworks */,
+				FD29077A16E0A15800C0DD27 /* libADTAudioACR-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD29074A16E0A11D00C0DD27 = {
+			isa = PBXGroup;
+			children = (
+				FD29079916E0A19900C0DD27 /* QuartzCore.framework */,
+				FD29079716E0A19200C0DD27 /* AudioToolbox.framework */,
+				FD29079516E0A18C00C0DD27 /* AVFoundation.framework */,
+				FD29079316E0A18700C0DD27 /* Accelerate.framework */,
+				FD29079116E0A17F00C0DD27 /* AdSupport.framework */,
+				FD29078F16E0A17A00C0DD27 /* Foundation.framework */,
+				FD29078D16E0A17400C0DD27 /* UIKit.framework */,
+				FD29079B16E0A1B600C0DD27 /* resources */,
+				FD29075916E0A11D00C0DD27 /* ADTClient */,
+				FD29075816E0A11D00C0DD27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD29075816E0A11D00C0DD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD29075716E0A11D00C0DD27 /* ADTClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD29075916E0A11D00C0DD27 /* ADTClient */ = {
+			isa = PBXGroup;
+			children = (
+				FD29076516E0A15800C0DD27 /* ADTAudioACR.h */,
+				FD29076616E0A15800C0DD27 /* libADTAudioACR-universal.a */,
+				FD29076716E0A15800C0DD27 /* ADTAudioRecorder.h */,
+				FD29076816E0A15800C0DD27 /* ADTAudioRecorder.m */,
+				FD29076916E0A15800C0DD27 /* ADTAudioRecorderDelegate.h */,
+				FD29076A16E0A15800C0DD27 /* ADTClient.h */,
+				FD29076B16E0A15800C0DD27 /* ADTClient.m */,
+				FD29076C16E0A15800C0DD27 /* ADTClientDelegate.h */,
+				FD29076D16E0A15800C0DD27 /* ADTConstants.h */,
+				FD29076E16E0A15800C0DD27 /* ADTLogging.h */,
+				FD29076F16E0A15800C0DD27 /* ADTLogging.m */,
+				FD29077016E0A15800C0DD27 /* ADTRestAPI.h */,
+				FD29077116E0A15800C0DD27 /* ADTRestAPI.m */,
+				FD29077216E0A15800C0DD27 /* ADTRestAPIDelegate.h */,
+				FD29077316E0A15800C0DD27 /* ADTRestEnvelope.h */,
+				FD29077416E0A15800C0DD27 /* ADTRestEnvelope.m */,
+				FD29077516E0A15800C0DD27 /* ADTUtils.h */,
+				FD29077616E0A15800C0DD27 /* ADTUtils.m */,
+				FD29077716E0A15800C0DD27 /* ADTVersion.h */,
+				FD29077816E0A15800C0DD27 /* ADTVersion.h.in */,
+				FD29075A16E0A11D00C0DD27 /* Supporting Files */,
+			);
+			path = ADTClient;
+			sourceTree = "<group>";
+		};
+		FD29075A16E0A11D00C0DD27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD29075B16E0A11D00C0DD27 /* ADTClient-Info.plist */,
+				FD29075C16E0A11D00C0DD27 /* InfoPlist.strings */,
+				FD29075F16E0A11D00C0DD27 /* ADTClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD29079B16E0A1B600C0DD27 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD29079C16E0A1B700C0DD27 /* ADTCloseButton.png */,
+				FD29079D16E0A1B700C0DD27 /* ADTCloseButton@2x.png */,
+				FD29079E16E0A1B700C0DD27 /* ADTIcon.png */,
+				FD29079F16E0A1B700C0DD27 /* ADTIcon@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FD29075216E0A11D00C0DD27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD29077916E0A15800C0DD27 /* ADTAudioACR.h in Headers */,
+				FD29077B16E0A15800C0DD27 /* ADTAudioRecorder.h in Headers */,
+				FD29077D16E0A15800C0DD27 /* ADTAudioRecorderDelegate.h in Headers */,
+				FD29077E16E0A15800C0DD27 /* ADTClient.h in Headers */,
+				FD29078016E0A15800C0DD27 /* ADTClientDelegate.h in Headers */,
+				FD29078116E0A15800C0DD27 /* ADTConstants.h in Headers */,
+				FD29078216E0A15800C0DD27 /* ADTLogging.h in Headers */,
+				FD29078416E0A15800C0DD27 /* ADTRestAPI.h in Headers */,
+				FD29078616E0A15800C0DD27 /* ADTRestAPIDelegate.h in Headers */,
+				FD29078716E0A15800C0DD27 /* ADTRestEnvelope.h in Headers */,
+				FD29078916E0A15800C0DD27 /* ADTUtils.h in Headers */,
+				FD29078B16E0A15800C0DD27 /* ADTVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FD29075616E0A11D00C0DD27 /* ADTClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD29076216E0A11D00C0DD27 /* Build configuration list for PBXNativeTarget "ADTClient" */;
+			buildPhases = (
+				FD29074F16E0A11D00C0DD27 /* ShellScript */,
+				FD29075016E0A11D00C0DD27 /* Sources */,
+				FD29075116E0A11D00C0DD27 /* Frameworks */,
+				FD29075216E0A11D00C0DD27 /* Headers */,
+				FD29075316E0A11D00C0DD27 /* Resources */,
+				FD29075416E0A11D00C0DD27 /* ShellScript */,
+				FD29075516E0A11D00C0DD27 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADTClient;
+			productName = ADTClient;
+			productReference = FD29075716E0A11D00C0DD27 /* ADTClient.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD29074B16E0A11D00C0DD27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alex Poon";
+			};
+			buildConfigurationList = FD29074E16E0A11D00C0DD27 /* Build configuration list for PBXProject "ADTClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD29074A16E0A11D00C0DD27;
+			productRefGroup = FD29075816E0A11D00C0DD27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD29075616E0A11D00C0DD27 /* ADTClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD29075316E0A11D00C0DD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD29075E16E0A11D00C0DD27 /* InfoPlist.strings in Resources */,
+				FD29078C16E0A15800C0DD27 /* ADTVersion.h.in in Resources */,
+				FD2907A016E0A1B700C0DD27 /* ADTCloseButton.png in Resources */,
+				FD2907A116E0A1B700C0DD27 /* ADTCloseButton@2x.png in Resources */,
+				FD2907A216E0A1B700C0DD27 /* ADTIcon.png in Resources */,
+				FD2907A316E0A1B700C0DD27 /* ADTIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FD29074F16E0A11D00C0DD27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
+		};
+		FD29075416E0A11D00C0DD27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		FD29075516E0A11D00C0DD27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Make sure the other platform gets built\n\necho \"Build other platform\"\n\necho xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n\n\n# Build the fat static library binary\n\necho \"Create universal static library\"\n\necho \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n\necho mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nmv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n\n\n# Build framework structure\n\necho \"Build symlinks\"\n\necho ln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\nln -sfh A \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Versions/Current\"\necho ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Headers\"\necho ln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\nln -sfh Versions/Current/Resources \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Resources\"\necho ln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\nln -sfh \"Versions/Current/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${EXECUTABLE_NAME}\"\n\n\n# Link to binary for unit tests\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework\"\nln -sfh \"../${WRAPPER_NAME}/${EXECUTABLE_NAME}\" \"${BUILT_PRODUCTS_DIR}/.fake_fw_testing.framework/.fake_fw_testing\"\n\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\n# Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n\necho \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n\necho rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\necho cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\ncp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD29075016E0A11D00C0DD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD29077C16E0A15800C0DD27 /* ADTAudioRecorder.m in Sources */,
+				FD29077F16E0A15800C0DD27 /* ADTClient.m in Sources */,
+				FD29078316E0A15800C0DD27 /* ADTLogging.m in Sources */,
+				FD29078516E0A15800C0DD27 /* ADTRestAPI.m in Sources */,
+				FD29078816E0A15800C0DD27 /* ADTRestEnvelope.m in Sources */,
+				FD29078A16E0A15800C0DD27 /* ADTUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD29075C16E0A11D00C0DD27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD29075D16E0A11D00C0DD27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD29076016E0A11D00C0DD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD29076116E0A11D00C0DD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD29076316E0A11D00C0DD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADTClient/ADTClient-Prefix.pch";
+				INFOPLIST_FILE = "ADTClient/ADTClient-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		FD29076416E0A11D00C0DD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADTClient/ADTClient-Prefix.pch";
+				INFOPLIST_FILE = "ADTClient/ADTClient-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD29074E16E0A11D00C0DD27 /* Build configuration list for PBXProject "ADTClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD29076016E0A11D00C0DD27 /* Debug */,
+				FD29076116E0A11D00C0DD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD29076216E0A11D00C0DD27 /* Build configuration list for PBXNativeTarget "ADTClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD29076316E0A11D00C0DD27 /* Debug */,
+				FD29076416E0A11D00C0DD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD29074B16E0A11D00C0DD27 /* Project object */;
+}

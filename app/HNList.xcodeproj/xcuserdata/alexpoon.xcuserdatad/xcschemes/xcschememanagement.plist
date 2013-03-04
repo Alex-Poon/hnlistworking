@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ADTClient.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ADTClient2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>HNList.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MoPubSDK.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FD357D1216DD0EAD00FBDAB0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD357D2F16DD0EC200FBDAB0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD357D4F16DD13F700FBDAB0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD4A8A1616D5F9B10040A52E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD6AC01A16E0FF0800CB3108</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDA71F4616E41DC3008BB39A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
